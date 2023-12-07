@@ -1,0 +1,19 @@
+<mxfile host="Electron" modified="2023-12-06T14:17:35.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="qez9SyvlmTCt1U9wuspg" version="22.1.2" type="device">
+  <diagram name="Página-1" id="Qwl6nszRBij0l1RV34sq">
+    <mxGraphModel dx="1185" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mM8h9sNhqRyJ8NELgbx6-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="750" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="mM8h9sNhqRyJ8NELgbx6-1" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mM8h9sNhqRyJ8NELgbx6-2" value="Azure subcription" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=left;verticalLabelPosition=middle;outlineConnect=0;verticalAlign=middle;align=right;shape=mxgraph.office.clouds.azure;textDirection=ltr;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="103" height="66" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
