@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Tarker.Booking.Application.Configuration;
+using Tarker.Booking.Application.DataBase.Bookings.Commands.CreateBooking;
+using Tarker.Booking.Application.DataBase.Bookings.Querys.GetAllBookings;
+using Tarker.Booking.Application.DataBase.Bookings.Querys.GetBookingByDocumentNumber;
+using Tarker.Booking.Application.DataBase.Bookings.Querys.GetBookingsByType;
 using Tarker.Booking.Application.DataBase.Customer.Commands.CreateCustomer;
 using Tarker.Booking.Application.DataBase.Customer.Commands.DeleteCustomer;
 using Tarker.Booking.Application.DataBase.Customer.Commands.UpdateCustomer;
@@ -21,7 +25,7 @@ namespace Tarker.Booking.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            var mapper = new MapperConfiguration(config=>
+            var mapper = new MapperConfiguration(config =>
             {
                 config.AddProfile(new MapperProfile());
             });
@@ -47,6 +51,12 @@ namespace Tarker.Booking.Application
             services.AddTransient<IGetCustomerByDocumentNumberQuery, GetCustomerByDocumentNumberQuery>();
             #endregion
 
+            #region Bookling
+            services.AddTransient<ICreateBookingCommand, CreateBookingCommand>();
+            services.AddTransient<IGetAllBookingsQuery, GetAllBookingsQuery>();
+            services.AddTransient<IGetBookingByDocumentNumberQuery, GetBookingByDocumentNumberQuery>();
+            services.AddTransient<IGetBookingsByTypeQuery, GetBookingsByTypeQuery>();
+            #endregion
 
             return services;
         }
